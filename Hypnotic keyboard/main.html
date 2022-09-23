@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> Lab 1 </title>
+        <style>
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            h1, h2, h3 {
+                text-align: center;
+            }
+        
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            Press a key to be hypnotized!
+        </h1>
+        <h2>
+            <label> Choose a waveform: </label>
+            <select name="waveform" id="waveform">
+                <option value="sine" id="sine">Sine</option>
+                <option value="sawtooth" id="sawtooth">Sawtooth</option>
+            </select>
+        </h2>
+        <canvas id="canvas" class="center" width="1000" height="1000"></canvas>
+    </body>
+
+    <script src="main.js"> </script>
+
+</html>
